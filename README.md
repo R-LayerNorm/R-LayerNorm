@@ -5,12 +5,12 @@
 
 
 
-    Install in your project:
+Install in your project:
 
 
 ,,,
 
-    pip install git+https://github.com/yourname/robust_layernorm.git
+    pip install git https://github.com/R-LayerNorm/R-LayerNorm-pseudocode/tree/main
 
 ,,,
 
