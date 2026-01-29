@@ -10,15 +10,15 @@
 
 ,,,
 
-pip install git+https://github.com/yourname/robust_layernorm.git
+    pip install git+https://github.com/yourname/robust_layernorm.git
 
 ,,,
 
-    Import in your model code:
+Import in your model code:
 
 ,,,
 
-from robust_layernorm import RobustLayerNorm
+    from robust_layernorm import RobustLayerNorm
 
 ,,,
 
@@ -30,7 +30,7 @@ python
 
 ,,,
 
-self.norm = RobustLayerNorm(dim, lambda_init=0.1)
+    self.norm = RobustLayerNorm(dim, lambda_init=0.1)
 
 ,,,
 
