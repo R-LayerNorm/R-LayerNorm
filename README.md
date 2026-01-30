@@ -25,9 +25,42 @@ model = nn.Sequential(
     nn.ReLU(),
     nn.MaxPool2d(2)
 )
+```
 
 #### 📦 Installation
 
 ```python
 pip install robust-layernorm
+```
+Or from source:
 
+```python
+git clone https://github.com/yourusername/R-LayerNorm.git
+cd R-LayerNorm
+pip install -e .
+```
+#### 🧪 Run Experiments
+
+```python
+# Full CIFAR-10-C experiment (5 seeds)
+python experiments/cifar10c_experiment.py --lambda 0.01 --epochs 10
+
+# Lambda parameter study
+python experiments/lambda_ablation.py --lambdas 0.005 0.01 0.02 0.03
+
+# Quick demo in Colab
+![Open In Colab][https://drive.google.com/drive/folders/1B5C9UdpO8_uZf7uaW2rs2MSI7Al8vxGy-badge.svg]
+```
+
+#### 📝 Citation
+
+If you use R-LayerNorm in your research, please cite:
+
+```python
+@article{rlayernorm2026,
+  title={R-LayerNorm: Robust Layer Normalization with Adaptive Noise Suppression},
+  author={Mohsen Mostafa},
+  journal={},
+  year={2026}
+}
+```
