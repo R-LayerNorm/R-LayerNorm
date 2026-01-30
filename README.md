@@ -25,3 +25,9 @@ model = nn.Sequential(
     nn.ReLU(),
     nn.MaxPool2d(2)
 )
+
+#### 📦 Installation
+
+```python
+pip install robust-layernorm
+
