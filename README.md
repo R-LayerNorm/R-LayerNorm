@@ -35,7 +35,7 @@ pip install robust-layernorm
 Or from source:
 
 ```python
-git clone https://github.com/yourusername/R-LayerNorm.git
+git clone https://github.com/R-LayerNorm/R-LayerNorm.git
 cd R-LayerNorm
 pip install -e .
 ```
