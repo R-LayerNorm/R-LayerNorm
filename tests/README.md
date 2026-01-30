@@ -2,31 +2,28 @@
 
 1. Run all tests:
 
-'''python
-
+```python
 # From the repository root
 python -m pytest tests/test_robust_layernorm.py -v
-'''
+```
+
 2. Run specific test:
 
-'''python
-
+```python
 python -m pytest tests/test_robust_layernorm.py::test_forward_pass_2d -v
-'''
+```
 
 3. Run with coverage:
 
-'''python
-
+```python
 python -m pytest tests/test_robust_layernorm.py --cov=robust_layernorm
-'''
+```
 
 4. Direct execution:
 
-'''python
-
+```python
 python tests/test_robust_layernorm.py
-'''
+```
 
 Test Categories Covered:
 
